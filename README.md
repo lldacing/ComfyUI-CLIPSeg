@@ -1,3 +1,9 @@
+# Fix some issues where the author has not been updated
+- Update requirements.txt, update dependencies limit minimum version
+- Add [\_\_init__.py](./__init__.py)
+- [Fix: cv !dsize.empty() error](https://github.com/biegert/ComfyUI-CLIPSeg/pull/18)
+
+# The following is the original project document
 # Custom Nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI): CLIPSeg and CombineSegMasks
 ## This repository contains two custom nodes for ComfyUI that utilize the [CLIPSeg model](https://huggingface.co/docs/transformers/main/en/model_doc/clipseg) to generate masks for image inpainting tasks based on text prompts.
 
